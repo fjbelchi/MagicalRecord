@@ -12,6 +12,8 @@
 // enable to use caches for the fetchedResultsControllers (iOS only)
 // #define STORE_USE_CACHE
 
+#define MRLog(...) ((void)0)
+
 #ifdef NS_BLOCKS_AVAILABLE
 
 extern NSString * const kMagicalRecordCleanedUpNotification;
